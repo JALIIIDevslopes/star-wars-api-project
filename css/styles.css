@@ -1,0 +1,113 @@
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+
+
+* {
+     color: gold;
+     font-family: 'Star Wars', sans-serif;
+     margin-left:5px;
+     margin-right:5px;
+}
+
+#top{
+    display: flex;
+    justify-content: center;
+    width:100vw;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+button {
+    background-color: aqua;
+    font-weight: 700;
+    color: black
+}
+
+.swLogo {
+    font-size: 60px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.item {
+    display:flex;
+    flex-direction: column;
+    height:280px;
+    width: 14vw;
+    font-size: 12px;
+    background-color:  rgba(255,255,255,0.5);
+    padding:5px;
+}
+
+.male {
+    border: 2px solid aqua;
+}
+
+.male .data {
+    color: aqua;
+}
+
+
+
+.female {
+    border: 2px solid purple;
+}
+
+.female .data {
+    color:purple;
+}
+
+.other {
+    border: 2px solid orange;
+}
+
+.other .data {
+    color: orange;
+}
+
+.Title {
+    justify-self: center;
+} 
+
+.pageDescrip, 
+.collectionTitle {
+    font-size: 30px;
+
+}
+
+body {
+    background-image: url("../assests/background/background.jpg");
+}
+
+
+
+.backAck {
+    color:aqua;
+    font-size:12px;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue
+}
+
+.container {
+    display: grid;
+  grid-template-columns: repeat(6, 16vw);
+  grid-gap: 5px 5px;
+  grid-auto-rows: 300px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}

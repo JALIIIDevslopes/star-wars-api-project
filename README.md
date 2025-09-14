@@ -1,2 +1,2 @@
-# js-website-with-api-project
-A project for Devslpers
+# Star Wars ApI project
+A project for Devslopes
